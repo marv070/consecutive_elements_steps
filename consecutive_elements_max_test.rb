@@ -8,7 +8,11 @@ def test_empty_arrays_return_zero
   find_max_consecutive_identical_elements([])
   assert_equal(0, results )
 end
-
+def test_array_with_one_element
+	results = 
+	find_max_consecutive_identical_elements([1])
+	assert_equal(1, results)
+end
 
 
 
