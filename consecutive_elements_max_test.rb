@@ -50,8 +50,11 @@ def test_to_itterate_through_array_and_find_identical_elements
 	assert_equal(100, results)
 end
 
-
-
+def test_for_identical_letters_in_array
+	results =
+	find_max_consecutive_identical_elements(["a", "a", "b", "a"])
+    assert_equal(2, results)
+end
 
 
 
