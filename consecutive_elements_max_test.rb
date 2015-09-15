@@ -56,6 +56,16 @@ def test_for_identical_letters_in_array
     assert_equal(2, results)
 end
 
+def test_for_multiply_identical_elements
+	results = find_max_consecutive_identical_elements([1,2,2,2,3,3,1,1])
+	assert_equal(3, results)
+end
+
+# def test_multiply_elements_using_words_in_strings
+# 	results =
+# 	find_max_consecutive_identical_elements(["hello"])
+# 	assert_equal(2, results)
+# end
 
 
 
