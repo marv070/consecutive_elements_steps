@@ -73,9 +73,11 @@ def test_that_this_is_easy_returns_1
 	assert_equal(1, results)
 end
 
-
-
-
+def test_that_this_is_sooooooo_hard_returns_7
+	results =
+	find_max_consecutive_identical_elements(["this is sooooooo hard"])
+	assert_equal(7, results)
+end
 
 
 end
